@@ -1,5 +1,3 @@
-public class CapitalStrategy {
-    public double calc(Loan loan) {
-        return 1;
-    }
+public interface CapitalStrategy {
+    public double calc(Loan loan);
 }
